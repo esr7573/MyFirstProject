@@ -1,0 +1,16 @@
+person:
+  name: John
+  age: 36
+hobbies:
+  - sports
+  - YouTube
+  - hiking
+Address:
+  street: 345 westside dr, Gaithersburg
+  city: maryland
+  zip: 20878
+ experience:
+  tittle: junior Developer
+  period: 2010-2015
+  tittle: senior Developer
+  period: 2015-2020
