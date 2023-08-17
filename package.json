@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "name": "03-product-landing-page",
+  "version": "1.0.0",
+  "description": "Responsive Web Design Projects - Build a Product Landing Page",
+  "main": "index.html",
+  "repository": "git@gitlab.com:crs1138-tutorials/freecodecamp/03-product-landing-page.git",
+  "author": "Jan Pozivil <crs1138@me.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
