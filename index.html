@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./functions.js" defer></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="branding">
+            <img src="./assets/images/emma_plunkett_logo-round_RGB.svg" alt="Emma Plunkett logo" id="header-img" class="branding__logo">
+            <h1 class="branding__heading">Emma Plunkett Art</h1>
+            <div class="branding__usp">CONTEMPORARY FINE ART, VIDEO & DESIGN</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <nav id="nav-bar" class="nav-bar">
+            <a href="#presentation" class="nav-link">what?</a>
+            <a href="#benefits" class="nav-link">why?</a>
+            <a href="#contact" class="nav-link">take my money</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="content" class="content">
+    <section id="presentation" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <iframe id="video" width="100%" height="auto" src="https://www.youtube.com/embed/6vT20aoypNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <div class="row col">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore, odio suscipit ad, numquam, magni vel possimus reiciendis ea officia facilis accusantium placeat facere nobis atque delectus eos. Nihil, voluptatum.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact" class="footer">
+    <div class="container">
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <div class="row">
+          <div class="col-1 text-right">
+            <label for="name" class="required">Name:</label>
+          </div>
+          <div class="col-4">
+            <input type="text" name="name" id="name" required placeholder="John Doe" class="form-block">
+          </div>
+          <div class="col-1 text-right">
+            <label for="email" class="required">Email:</label>
+          </div>
+          <div class="col-4">
+            <input type="email" name="email" id="email" required placeholder="john.doe@example.com" class="form-block">
+          </div>
+          <div class="col-2">
+            <input type="submit" value="Sign up" id="submit" class="btn btn--primary btn--lg form-block">
+          </div>
+        </div>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
